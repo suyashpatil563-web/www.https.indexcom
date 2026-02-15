@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #1b2a38;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.product-row {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px 5px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #e53935;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+canvas {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #111;
+}

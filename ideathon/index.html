@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI ProfitLens 3.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>AI ProfitLens 3.0</h1>
+    <p>AI-Based Profit Intelligence for MSMEs</p>
+</header>
+
+<div class="container">
+
+    <h2>Monthly Fixed Expenses</h2>
+    <input type="number" id="expenses" placeholder="Enter Monthly Fixed Expenses">
+
+    <h2>Products</h2>
+    <div id="productContainer"></div>
+
+    <button onclick="addRow()">+ Add Product</button>
+    <button onclick="analyze()">Run AI Analysis</button>
+
+    <div id="result"></div>
+
+    <canvas id="profitChart"></canvas>
+
+</div>
+
+<footer>
+    <h3>Founder</h3>
+    <p><strong>Suyash Patil</strong></p>
+    <p>MBA – Operations & SCM | AI for MSMEs</p>
+    <a href="https://www.linkedin.com/in/suyash-patil-883667361" target="_blank">
+        Connect on LinkedIn
+    </a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
